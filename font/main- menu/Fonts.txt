@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Raleway
+Author: Multiple Designers
+Url: https://fonts.google.com/specimen/Raleway
+
+Font: Playfair Display
+Author: Claus Eggers Sørensen
+Url: https://fonts.google.com/specimen/Playfair+Display

@@ -1,0 +1,308 @@
+@charset "utf-8";
+/* webfont */
+
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+span,
+strong,
+table,
+th,
+td,
+em,
+form,
+input,
+textarea,
+img,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* html{
+    font-size: ;
+} */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+
+body {
+    color: #4D4A4A;
+    font-family: 'MapoFlowerIsland';
+}
+
+#wrap {
+    min-width: 1360px;
+    background-color: #F3FBD1;
+    overflow: hidden;
+}
+
+
+/* header */
+#header {
+    background-color:#8A916D;
+
+}
+
+.wrap_header {
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+    align-items: center;
+    height: 100px;
+}
+
+.logo img{
+    display: block;
+   }
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    padding: 0 70px;
+    font-weight:400;
+    font-size: 16px;
+    color: #EAF9AA;
+}
+
+.nav li a {
+    display: block;
+}
+
+.nav li::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(224, 174, 67);
+    transform: scaleX(0);
+}
+
+.nav li:hover:after {
+    transform: scaleX(1);
+    transition: transform 0.3s;
+}
+
+.nav li:hover .submenu {
+    display: block;
+}
+
+.gnb {
+    display: flex;
+    padding-left: 130px;
+}
+
+.gnb li {
+    padding-left: 30px;
+    color: rgb(58, 41, 20);
+}
+
+.gnb li a {
+    display: block;
+}
+
+.gnb li img{
+    display: block;
+}
+
+/* submenu */
+/* .submenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: #fff;
+
+    color: #222121;
+    font-weight: 600;
+}
+
+.inner_submenu {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.submenu li a:hover {
+    color: rgb(117, 84, 39);
+}
+
+.submenu_a {
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+.submenu_a li {
+    padding: 0 20px;
+}
+
+.submenu_a li a {
+    display: block;
+} */
+
+/* bigbanner */
+#banner {
+    width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+/* container */
+#container {
+    width: 1320px;
+    margin: 100px auto;
+}
+
+#container h1 {
+    display: block;
+    padding: 20px 40px;
+    background: url(../images/program/intro_button.png) no-repeat center;
+    font-family: ;
+    color: #fff;
+    text-align: center;
+}
+
+.wrap_pro{
+    margin-top: 100px;
+}
+
+.wrap_pro ul{
+    display: flex;
+    justify-content: space-between;
+}
+.wrap_pro ul li{
+    width: 314px;
+    height: 489px;
+    background-color: #fff;
+}
+
+.wrap_pro ul li img{
+    display: block;
+    margin:25px;
+    }
+
+.pro2{
+    padding: 20px 0;
+}
+
+.notice_txt {
+    padding: 20px 0 10px 30px;
+    text-align: left;
+    height: 145px;
+}
+
+.notice_event{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(235, 182, 67);
+    color: #fff;
+}
+.notice_exhibit{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #90AF74;
+    color: #fff;
+}
+
+/* footer */
+#footer {
+    background-color:#8A916D;
+}
+
+.inner_footer {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px 0;
+    
+}
+.inner_footer h1{
+  
+}
+.inner_footer h1 img{
+    display: block;
+}
+
+.footer_txt p {
+    padding-left: 10px;
+    line-height: 30px;
+    color:#fff;
+}
+
+.footer_txt{
+    color:#fff;
+    padding-top: 20px;
+}
+
+.footer_txt1 {
+    display: flex;
+}
+
+.footer_txt1 li {
+    padding: 10px;
+}
+
+.footer_txt1 li a {
+    display: block;
+}
+
+.footer_txt1 li a:before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    margin-right: px;
+    vertical-align: -1px;
+    background: #fff;
+    margin-right: 10px;
+
+}
+
+.footer_txt1 li:nth-child(1) a:before {
+    display: none;
+}
+
+.sns{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.sns li{
+   padding: 0 10px;
+}
