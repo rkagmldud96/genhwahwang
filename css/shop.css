@@ -1,0 +1,410 @@
+@charset "utf-8";
+/* webfont */
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+span,
+strong,
+table,
+th,
+td,
+em,
+form,
+input,
+textarea,
+img,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* html{
+    font-size: ;
+} */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+
+body {
+    color: #4D4A4A;
+    font-family:'notosanskr';
+}
+
+#wrap {
+    min-width: 1320px;
+    background-color: #F3FBD1;
+    overflow: hidden;
+}
+
+h1{
+   font-family: 'GowunBatang-Regular';
+}
+
+/* header */
+#header {
+    background-color:#8A916D;
+
+}
+
+.wrap_header {
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+    align-items: center;
+    height: 100px;
+}
+
+.logo img{
+    display: block;
+   }
+
+.nav {
+    display: flex;
+}
+
+.nav1 {
+    padding: 0 70px;
+    font-weight:400;
+    font-size: 16px;
+    color: #EAF9AA;
+  
+    align-items: center;
+    
+}
+
+.nav1 a {
+    display: inline-block;
+    padding-top: 55px;
+}
+
+.nav1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(224, 174, 67);
+    transform: scaleX(0);
+}
+
+.nav1:hover:after {
+    transform: scaleX(1);
+    transition: transform 0.3s;
+}
+
+.nav1:hover .submenu {
+    display: block;
+}
+
+.gnb {
+    display: flex;
+    padding-left: 130px;
+}
+
+.gnb li {
+    padding-left: 30px;
+    color: rgb(58, 41, 20);
+}
+
+.gnb li a {
+    display: block;
+}
+
+.gnb li img{
+    display: block;
+}
+
+/* submenu */
+/* .submenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: #fff;
+
+    color: #222121;
+    font-weight: 600;
+}
+
+.inner_submenu {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.submenu li a:hover {
+    color: rgb(117, 84, 39);
+}
+
+.submenu_a {
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+.submenu_a li {
+    padding: 0 20px;
+}
+
+.submenu_a li a {
+    display: block;
+} */
+
+/* banner */
+#banner {
+    width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* container */
+
+#container {
+    width: 1320px;
+    margin: 150px auto;
+}
+
+#container h1{
+    text-align: center;
+}
+
+.weekly img{
+    display: block;
+}
+
+.weekly img:hover{
+    transform: scale(1.1); 
+}
+
+
+.weekly {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side {
+    margin-top: 175px;
+    width: 50px;
+    height: 50px;
+    background-color: #8A916D;
+    border-radius: 50%;
+}
+
+/* .side img{
+    width: 20px;
+    padding:  0 0 18px;
+} */
+
+.a {
+    /* background: #fff; */
+    width: 369px;
+    height: 450px;
+}
+
+.a_txt {
+    padding: 30px;
+    text-align: center;
+}
+
+.b {
+    padding: 5px 0 20px 0;
+    font-weight: 800;
+}
+
+/* 리뷰 */
+.wrap_review{
+margin: 100px 0;
+}
+.review {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.a2 {
+    background: #fff;
+    width: 320px;
+    height: 450px;
+}
+
+.a2 img{
+  display: block;}
+
+.a2_txt {
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.b2{
+   padding: 20px 0 5px 0;
+
+}
+
+.solid{
+   border: 1px solid #ddd;
+   margin-bottom: 15px;
+}
+.shop_asset1{
+    margin-left: 10px;}
+
+.shop_asset2{
+    position: relative;
+width: 16px;
+bottom: 10px;
+right: -295px;
+z-index:10;
+}
+
+.wrap_review h3{
+    padding-top: 20px;
+    text-align: center;}
+ 
+/* 작은 수목원 */
+.wrap_mini{
+width: 1320px;
+margin: 100px auto;
+}
+
+.wrap_mini h1{
+    align-items: center;
+    text-align: center;
+}
+.mini{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.a3_txt {
+    padding: 20px;
+}
+
+.a3_txt p{
+    padding-bottom: 40px;
+}
+.a3_money{
+    font-weight: 800;
+}
+
+.top_button{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(106, 136, 82);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    cursor: pointer;
+    color: #F3FBD1;
+}
+
+/* footer */
+#footer {
+    background-color:#8A916D;
+}
+
+.inner_footer {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px 0;
+    
+}
+.inner_footer h1{
+  
+}
+.inner_footer h1 img{
+    display: block;
+}
+
+.footer_txt p {
+    padding-left: 10px;
+    line-height: 30px;
+    color:#fff;
+}
+
+.footer_txt{
+    color:#fff;
+    padding-top: 20px;
+}
+
+.footer_txt1 {
+    display: flex;
+}
+
+.footer_txt1 li {
+    padding: 10px;
+}
+
+.footer_txt1 li a {
+    display: block;
+}
+
+.footer_txt1 li a:before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    margin-right: px;
+    vertical-align: -1px;
+    background: #fff;
+    margin-right: 10px;
+
+}
+
+.footer_txt1 li:nth-child(1) a:before {
+    display: none;
+}
+
+.sns{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.sns li{
+   padding: 0 10px;
+}
+.sns li img{
+    display: block;
+ }
+
+ .sns li img:hover{
+    transform: scale(1.1); 
+ } 
