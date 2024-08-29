@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/booking.css">
 </head>
 <body>
+    <div id="wrap">
     <div id="container"><!--container_S-->
         <h2>프로그램신청하기</h2>
         <h3>개인정보동의서</h3>
@@ -26,9 +27,9 @@
             
         </div>
         <form action="" class="agree_btn">
-            <input type="radio" name="agree" value="no" checked>
+            <input type="radio" name="agree" value="no" >
             <label for="">동의하지 않음</label>
-            <input type="radio" name="agree" value="yes">
+            <input type="radio" name="agree" value="yes" checked>
             <label for="">동의함</label>
         </form>
         <h3>프로그램신청서작성</h3>
@@ -41,7 +42,7 @@
                 <tr>
                     <th>예약날짜</th>
                     <td>
-                        <input type="text" id="datepicker" placeholder="CHECK IN" class="day">
+                        <input type="text" id="datepicker" placeholder="ex)2024.09.03" class="day">
                     </td>
                 </tr>
                 <tr>
@@ -113,7 +114,9 @@
             </div>
 
         </form>
-    </div><!--container_E-->
+    </div>
+    </div>
+    <!--container_E-->
     <script>
 		AOS.init(); //에오스
 		
