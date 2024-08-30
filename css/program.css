@@ -284,6 +284,14 @@ body {
 .wrap_pro{
     margin-top: 100px;
 }
+.wrap_pro h2{
+   font-size: 20px;
+}
+.notice_txt_2h{
+    font-size: 19px;
+   padding: 20px 0px;
+   font-weight: 700;
+}
 
 .wrap_pro ul{
     display: flex;
@@ -291,13 +299,13 @@ body {
 }
 .wrap_pro ul li{
     width: 314px;
-    height: 489px;
+    height: 435px;
     background-color: #fff;
 }
 
 .wrap_pro ul li img{
     display: block;
-    margin:25px;
+    margin:0px 25px;
     }
 
 .pro2{
@@ -305,9 +313,9 @@ body {
 }
 
 .notice_txt {
-    padding: 20px 0 10px 30px;
+    padding: 20px 20px 5px;
     text-align: left;
-    height: 145px;
+    height: 135px;
 }
 
 .notice_event{
